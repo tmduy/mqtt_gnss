@@ -15,6 +15,8 @@
 #include <sqlite3.h>
 #include <csignal>
 #include <atomic>
+#include <iomanip>      // for std::put_time
+#include <chrono>       // for system clock
 
 /***********************************************************************************************************************
  * Macro definitions
