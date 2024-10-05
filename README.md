@@ -35,7 +35,7 @@ To get a local copy up and running, follow these steps.
 **mosquitto** and **sqlite3** must be installed on your Linux system. You can install them with the following commands:
 
 ```bash
-sudo apt install libmosquitto-dev libsqlite3-dev
+sudo apt install libmosquitto-dev mosquitto mosquitto-clients libsqlite3-dev
 ```
 
 ### Cloning the Project
@@ -49,7 +49,7 @@ cd your-repository/mqtt_gnss
 ## Building and Running
 ### Setting up Makefile
 **Makefile** is already provided and can be edited if needed.
-Ensure you have g++ and necessary build tools installed.
+Ensure you have g++, make and necessary build tools installed.
 
 ### Building
 Run make to build the project:
